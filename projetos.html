@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+  <link rel="Stylesheet" href="CSS.css">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script src="config.js"></script>
+  <title>Site para Disciplina Animação 3D</title>
+</head>
+<body onload="show5(),startmovement(),projetoinfo(1),startchange()">
+  <div class="logo">
+  <div class="clock" id="liveclock"></div>
+  </div>
+  <div id="myTopnav" class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="sobre.html">Formando</a>
+    <a href="#">Módulo</a>
+    <a style="border-bottom: 3px solid aqua" href="projetos.html">Projetos</a>
+    <a href="contato.html">Contato</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <div class="amsg">
+    <p class="amsgsl" id="novo"></p>
+  </div>
+  <p class="projeto" id="pp">
+  </p>
+  <div class="picextra">
+  <div class="picframe">
+    <img id="img1" src="jogos.jpg">
+    <img id="img2" src="arrabida.jpg">
+    <img id="img3" src="movel2d.jpg">
+    <img id="img4" src="movel3d.jpg">
+    <img id="img5" src="porta.jpg">
+    <img id="img6" src="sala257.jpg" onclick="showpp()">
+  </div>
+  <div class="showpic" id="picin"><div class="toclose" onclick="closepp()">X</div>
+  <center style="clear: both; position: relative; top: -20px;"><h1>Para ver as imagens numa outra direcao so por o rato por cima</h1></center>
+  <div class="dimg1">
+    <img src="sala2d.jpg" width=100% height=100%>
+    <p class="showp1">IMG 1</p>
+    <p class="salap1">Esta imagem mostra o trabalho em forma de projeto desenho</p>
+  </div>
+  <div class="dimg1">
+      <img src="sala3d.jpg" width=100% height=100%>
+      <p class="showp2">IMG 2</p>
+      <p class="salap2">Nesta imagem mostra o projeto ja em 3d visto de cima</p>
+    </div>
+    <div class="dimg2">
+        <img src="sala257.jpg" width=100% height=100%>
+        <p class="showp3">IMG 3</p>
+        <p class="salap3">Esta mostra a sala numa camara diferente</p>
+      </div>
+      <div class="dimg2">
+          <img src="257-2.jpg" width=100% height=100%>
+          <p class="showp4">IMG 4</p>
+          <p class="salap4">Esta mostra a sala numa camara diferente</p>
+          </div>
+  </div>
+  <div class="b1" onclick="innextimage()"><p>Carregar proxima imagem</p></div>
+  <div class="b2" onclick="nextimage()"><p>Carregar imagem anterior</p></div>
+  <div class="b3" id="showb3"><p>Carregar na imagem para ver imagens dentro deste projeto</p></div>
+  </div>
+</body>
+</html>
