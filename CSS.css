@@ -169,6 +169,7 @@ h1 {
   color: white;
   font-family: Archivo Narrow, sans-serif;
   font-size: 15px;
+  position: absolute;
   margin: 0px;
   transition: all 1s;
   font-weight: lighter;
