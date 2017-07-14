@@ -58,7 +58,6 @@ body {
   left: 25%;
   color: black;
 }
-.salap2 {
   position: relative;
   top: -12%;
   left: 25%;
@@ -164,17 +163,16 @@ h1 {
   display: inline;
   height: 20px;
   width: 350px;
-  float: left;
+  float: right;
   padding: 0px;
   text-align: left;
   background-color: #356bc1;
   color: white;
   font-family: Archivo Narrow, sans-serif;
   font-size: 1px;
-  position: absolute;
+  position: relative;
   margin: 0px;
   top: 0px;
-  right: 0px;
   transition: all 1s;
   font-weight: lighter;
   text-align: center;
