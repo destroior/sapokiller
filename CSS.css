@@ -411,4 +411,5 @@ hr {
   .history2 {
     height: 3100px;
   }
+  .clock { top: 50px; right: 30px; }
 }
