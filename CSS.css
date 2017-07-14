@@ -58,6 +58,7 @@ body {
   left: 25%;
   color: black;
 }
+.salap2 {
   position: relative;
   top: -12%;
   left: 25%;
@@ -163,7 +164,7 @@ h1 {
   height: 20px;
   width: 350px;
   float: right;
-  text-align: left;
+  text-align: center;
   background-color: #356bc1;
   color: white;
   font-family: Archivo Narrow, sans-serif;
@@ -172,7 +173,6 @@ h1 {
   margin: 0px;
   transition: all 1s;
   font-weight: lighter;
-  text-align: center;
 }
 .amsg {
   position: relative;
@@ -356,6 +356,7 @@ hr {
     height: 850px;
   }
   .projeto { height: 40px; }
+  .clock { top: 50px; right: 30px; }
 }
 @media screen and (max-width: 680px) {
   .menu a:not(:first-child) {display: none;}
@@ -376,6 +377,7 @@ hr {
     height: 850px;
   }
   .projeto { height: 40px; }
+  .clock { top: 50px; right: 30px; }
 }
 
 @media screen and (max-width: 600px) {
