@@ -412,5 +412,5 @@ hr {
   .history2 {
     height: 3100px;
   }
-  .clock { top: 50px; }
+  .clock { top: 30px; height: auto; }
 }
