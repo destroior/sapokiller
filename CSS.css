@@ -160,11 +160,9 @@ h1 {
   display: none;
 }
 .clock {
-  display: inline;
   height: 20px;
   width: 350px;
   float: right;
-  padding: 0px;
   text-align: left;
   background-color: #356bc1;
   color: white;
@@ -172,7 +170,6 @@ h1 {
   font-size: 1px;
   position: relative;
   margin: 0px;
-  top: 0px;
   transition: all 1s;
   font-weight: lighter;
   text-align: center;
@@ -359,7 +356,6 @@ hr {
     height: 850px;
   }
   .projeto { height: 40px; }
-  .clock { top: 50px; right: 30px; }
 }
 @media screen and (max-width: 680px) {
   .menu a:not(:first-child) {display: none;}
@@ -380,7 +376,6 @@ hr {
     height: 850px;
   }
   .projeto { height: 40px; }
-  .clock { top: 50px; right: 30px; }
 }
 
 @media screen and (max-width: 600px) {
