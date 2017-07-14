@@ -23,7 +23,7 @@ var minutes=Digital.getMinutes()
 var seconds=Digital.getSeconds()
 var dn="AM"
 if (hours>12){dn="PM";hours=hours-12;};if (hours==0)hours=12;if (minutes<=9)minutes="0"+minutes;if (seconds<=9)seconds="0"+seconds;
-myclock="<font size=3 color=white> "+dia2+" "+dia+" de "+month2+" de "+ano+" e são "+hours+":"+minutes+":"+seconds+"("+dn+")"
+myclock="<color=white> "+dia2+" "+dia+" de "+month2+" de "+ano+" e são "+hours+":"+minutes+":"+seconds+"("+dn+")"
 if (document.layers){document.layers.liveclock.document.write(myclock);document.layers.liveclock.document.close();}
 else if (document.all)
 liveclock.innerHTML=myclock
