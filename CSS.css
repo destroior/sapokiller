@@ -442,7 +442,7 @@ h2 {
   height: 50px;
   opacity: 0;
   background-color: white;
-  border: 10px solid black;
+  border: 2px solid black;
   border-radius: 25px;
   z-index: 9999;
   -webkit-transition: width 2s, height 2s;
