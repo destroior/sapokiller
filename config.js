@@ -127,6 +127,25 @@ function isclick() {
   alert(x);
   x.style.transform=rotate('180');
 }
+var cpp = 0;
+function opencuri() {
+  var i = document.getElementById('curi1');
+  if(cpp==0) { i.style.opacity=1; cpp=1; effect4(); isdip(); return}
+}
+function curiclose() {
+  var i = document.getElementById('curi1');
+  i.style.opacity="0";
+  i.style.width="50px";
+  i.style.height="50px";
+  cpp=0;
+}
+function effect4() {
+  if(cpp==1) {
+    var i = document.getElementById('curi1');
+    i.style.width="90%";
+    i.style.height="2390px";
+  }
+}
 var spp = 0;
 function showpp() {
   var i = document.getElementById('picin');
@@ -166,9 +185,10 @@ function effect2() {
   }
 }
 var spp3 = 0;
+var insp3 = 1;
 function showpp3() {
   var i = document.getElementById('picin3');
-  if(spp3==0) { i.style.opacity=1; spp3=1; effect3(); return}
+  if(spp3==0) { i.style.opacity=1; spp3=1; insp3=1; effect3(); toshow3(); return}
 }
 function closepp3() {
   var i = document.getElementById('picin3');
@@ -183,4 +203,46 @@ function effect3() {
     i.style.width="90%";
     i.style.height="800px";
   }
+}
+function toshow3() {
+  if(insp3==2) {
+    var i = document.getElementById('ii');
+    var p = document.getElementById('ii2');
+    var p2 = document.getElementById('ii3');
+    var p3 = document.getElementById('ii4');
+    var i2 = document.getElementById('ii5');
+    i.src="sala.jpg";
+    p.src="quarto.jpg";
+    p2.src="sala2.jpg";
+    p3.src="casaalentejanafinal4.jpg";
+    i2.innerHTML="Nesta imagem mostra o projeto ja em 3d";
+  }
+  if(insp3==1) {
+    var i = document.getElementById('ii');
+    var p = document.getElementById('ii2');
+    var p2 = document.getElementById('ii3');
+    var p3 = document.getElementById('ii4');
+    var i2 = document.getElementById('ii5');
+    i.src="casaalentejana2d.jpg";
+    p.src="casaalentejana.jpg";
+    p2.src="casaalentejanafinal3.jpg";
+    p3.src="casaalentejanafinal2.jpg";
+    i2.innerHTML="Esta imagem mostra o trabalho em forma de projeto desenho";
+  }
+}
+function nextpp3() {
+  insp3++;
+  if(insp3>2)insp3=1;
+  toshow3();
+  return
+}
+function beforepp3() {
+  insp3--;
+  if(insp3<1)insp3=2;
+  toshow3();
+  return
+}
+function isdip() {
+  if(document.getElementById("bb").style.visibility == "hidden"){ document.getElementById("bb").style.visibility = "visible"; }
+  else { document.getElementById("bb").style.visibility = "hidden"; }
 }

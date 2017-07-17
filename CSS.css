@@ -306,6 +306,134 @@ hr {
     border:0px none white;
     border-top:1px solid lightgrey;
 }
+.showcurriculo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  background-color: white;
+  border: 10px solid black;
+  border-radius: 25px;
+  z-index: 9999;
+  -webkit-transition: width 2s, height 2s;
+    -moz-transition: width 1s, height 1s;
+    -ms-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+#curis:hover{
+  border-width: thin;
+  border: solid red;
+  border-top-right-radius: 15px;
+}
+.curvdiv {
+  width: 100%;
+  height: 120px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.curilogo {
+  width: 35%;
+  height: 120px;
+  margin-left: 35%;
+}
+.dados {
+  position:relative;
+  float:left;
+  width:48%;
+  height:850px;
+  margin-top:100px;
+  margin-left:1%;
+  background:#ffffff;
+  font-family:Oswald, sans-serif;
+  font-size:15px;
+  box-shadow: 5px 5px 5px gray;
+}
+.edu {
+  position:relative;
+  float:right;
+  width:48%;
+  height:550px;
+  margin-Top:100px;
+  margin-Right:1%;
+  background:#ffffff;
+  font-Family:Oswald, sans-serif;
+  font-Size:15px;
+  box-Shadow:5px 5px 5px gray;
+}
+.ling {
+  position:relative;
+  float:right;
+  width:48%;
+  height:290px;
+  margin-Top:10px;
+  margin-Right:1%;
+  background:#ffffff;
+  font-Family:Oswald, sans-serif;
+  font-Size:15px;
+  box-Shadow:5px 5px 5px gray;
+}
+.exp {
+  position:relative;
+  float:left;
+  width:98%;
+  height:auto;
+  margin-Top:15px;
+  margin-Left:1%;
+  margin-Right:1%;
+  background:#ffffff;
+  font-Family:Oswald, sans-serif;
+  font-Size:15px;
+  box-Shadow:5px 5px 5px gray;
+}
+.expp {
+  margin-Left:30px;
+  color:black;
+}
+.eu {
+  position:relative;
+  top:-100px;
+  margin-Top:0px;
+  margin-Left:25%;
+  margin-Bottom:-110px;
+  opacity:0.8;
+  z-Index:4000;
+  transition:transform 0.8s;
+  height: 300px;
+  width: 300px;
+}
+.diplo {
+  position: relative;
+  left: 40%;
+  float: left;
+  height: 120px;
+  width: 110px;
+}
+.diplop {
+  height:auto;
+  width:auto;
+  text-Align:center;
+  visibility:hidden;
+  margin-Top:30%;
+}
+.diplo:hover {
+  border-width: thin;
+  border: solid red;
+}
+.eu:hover{
+  opacity:1.5;
+  z-Index:5000;
+  transform: scale(2,2) translateX(60px) translateY(-20px);
+}
+h2 {
+  color:red;
+  font-family:'Archivo Narrow', sans-serif;
+  font-size: x-large;
+  font-weight:bold;
+  font-style:italic;
+  text-align:center;
+}
 .showpic {
   position: absolute;
   top: 5%;
@@ -337,7 +465,40 @@ hr {
   padding-top: 13px;
   z-index: 9999;
 }
-.toclose:hover {
+.toclose2 {
+  float: right;
+  position: relative;
+  top: -50px;
+  right: 10px;
+  border-radius: 25px;
+  height: 30px;
+  width: 30px;
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+  text-align: center;
+  padding-top: 13px;
+  z-index: 9999;
+}
+.blockquote {
+  font-size: 4px;
+}
+.toclose3 {
+  float: right;
+  position: relative;
+  top: -50px;
+  right: 10px;
+  border-radius: 25px;
+  height: 30px;
+  width: 30px;
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+  text-align: center;
+  padding-top: 13px;
+  z-index: 9999;
+}
+.toclose:hover, .toclose2:hover, .toclose3:hover {
   background-color: darkblue;
   color: yellow;
 }
@@ -362,6 +523,22 @@ hr {
   }
   .amsgsl {
     height: 40px;
+  }
+  .eu {
+    width: 100px;
+  }
+  .dados {
+    height: 1200px;
+  }
+  .diplo {
+    height: 50px;
+    width: 50px;
+  }
+  .edu {
+    height: 800px;
+  }
+  .ling {
+    height: 390px;
   }
 }
 @media screen and (max-width: 680px) {
@@ -396,6 +573,22 @@ hr {
   .amsgsl {
     height: 40px;
   }
+  .eu {
+    width: 100px;
+  }
+  .dados {
+    height: 1200px;
+  }
+  .diplo {
+    height: 50px;
+    width: 50px;
+  }
+  .edu {
+    height: 800px;
+  }
+  .ling {
+    height: 390px;
+  }
 }
 @media screen and (max-width: 300px) {
   .b1 { width: 100px; }
@@ -409,6 +602,22 @@ hr {
   }
   .amsgsl {
     height: 40px;
+  }
+  .eu {
+    width: 100px;
+  }
+  .dados {
+    height: 1200px;
+  }
+  .diplo {
+    height: 50px;
+    width: 50px;
+  }
+  .edu {
+    height: 800px;
+  }
+  .ling {
+    height: 390px;
   }
 }
 
@@ -450,6 +659,22 @@ hr {
   .amsgsl {
     height: 40px;
   }
+  .eu {
+    width: 100px;
+  }
+  .dados {
+    height: 1200px;
+  }
+  .diplo {
+    height: 50px;
+    width: 50px;
+  }
+  .edu {
+    height: 800px;
+  }
+  .ling {
+    height: 390px;
+  }
 }
 @media screen and (max-width: 550px) {
   .history2 {
@@ -467,5 +692,21 @@ hr {
   }
   .amsgsl {
     height: 40px;
+  }
+  .eu {
+    width: 100px;
+  }
+  .dados {
+    height: 1200px;
+  }
+  .diplo {
+    height: 50px;
+    width: 50px;
+  }
+  .edu {
+    height: 800px;
+  }
+  .ling {
+    height: 390px;
   }
 }
