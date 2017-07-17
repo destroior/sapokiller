@@ -52,7 +52,7 @@ function movement() {
    b.style.left=u + "px";
 }
 var currentimg=1;
-var total=6;
+var total=7;
 function nextimage() {
   clearInterval(puta);
   var x1 = document.getElementById('img1');
@@ -61,16 +61,19 @@ function nextimage() {
   var x4 = document.getElementById('img4');
   var x5 = document.getElementById('img5');
   var x6 = document.getElementById('img6');
+  var x7 = document.getElementById('img7');
   currentimg--;
-  if(currentimg<1){currentimg=total;x1.style.top="0%";x2.style.top="0%";x3.style.top="0%";x4.style.top="0%";x5.style.top="0%";x6.style.top="0%";}
-  if(currentimg==1){x1.style.top="0px";x2.style.top="0px";x3.style.top="0px";x4.style.top="0px";x5.style.top="0px";x6.style.top="0px";;projetoinfo(1);}
-  if(currentimg==2){x1.style.top="-101.5%";x2.style.top="-101.5%";x3.style.top="-101.5%";x4.style.top="-101.5%";x5.style.top="-101.5%";x6.style.top="-101.5%";projetoinfo(2);}
-  if(currentimg==3){x1.style.top="-200%";x2.style.top="-200%";x3.style.top="-202.5%";x4.style.top="-200";x5.style.top="-200%";x6.style.top="-200%";projetoinfo(3);}
-  if(currentimg==4){x1.style.top="-303.8%";x2.style.top="-303.8%";x3.style.top="-303.8%";x4.style.top="-303.8%";x5.style.top="-303.8%";x6.style.top="-303.8%";projetoinfo(4);}
-  if(currentimg==5){x1.style.top="-405%";x2.style.top="-405%";x3.style.top="-405%";x4.style.top="-405%";x5.style.top="-405%";x6.style.top="-405%";projetoinfo(5);}
-  if(currentimg==6){x1.style.top="-506%";x2.style.top="-506%";x3.style.top="-506%";x4.style.top="-506%";x5.style.top="-506.2%";x6.style.top="-506%";projetoinfo(6);}
+  if(currentimg<1){currentimg=total;x1.style.top="0%";x2.style.top="0%";x3.style.top="0%";x4.style.top="0%";x5.style.top="0%";x6.style.top="0%";x7.style.top="0%"}
+  if(currentimg==1){x1.style.top="0px";x2.style.top="0px";x3.style.top="0px";x4.style.top="0px";x5.style.top="0px";x6.style.top="0px";x7.style.top="0px";projetoinfo(1);}
+  if(currentimg==2){x1.style.top="-101.5%";x2.style.top="-101.5%";x3.style.top="-101.5%";x4.style.top="-101.5%";x5.style.top="-101.5%";x6.style.top="-101.5%";x7.style.top="-101.5%";projetoinfo(2);}
+  if(currentimg==3){x1.style.top="-200%";x2.style.top="-200%";x3.style.top="-202.5%";x4.style.top="-200";x5.style.top="-200%";x6.style.top="-200%";x7.style.top="-200%";projetoinfo(3);}
+  if(currentimg==4){x1.style.top="-303.8%";x2.style.top="-303.8%";x3.style.top="-303.8%";x4.style.top="-303.8%";x5.style.top="-303.8%";x6.style.top="-303.8%";x7.style.top="-303.8%";projetoinfo(4);}
+  if(currentimg==5){x1.style.top="-405%";x2.style.top="-405%";x3.style.top="-405%";x4.style.top="-405%";x5.style.top="-405%";x6.style.top="-405%";x7.style.top="-405%";projetoinfo(5);}
+  if(currentimg==6){x1.style.top="-506%";x2.style.top="-506%";x3.style.top="-506%";x4.style.top="-506%";x5.style.top="-506.2%";x6.style.top="-506%";x7.style.top="-506%";projetoinfo(6);}
+  if(currentimg==7){x1.style.top="-607%";x2.style.top="-607%";x3.style.top="-607%";x4.style.top="-607%";x5.style.top="-607%";x6.style.top="-607%";x7.style.top="-607%";projetoinfo(7);}
   puta = setTimeout("autochange()",9000)
   if(currentimg==6){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
+  if(currentimg==7){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
   else { var xx = document.getElementById('showb3'); xx.style.opacity=0; }
 }
 function innextimage() {
@@ -81,16 +84,19 @@ function innextimage() {
   var x4 = document.getElementById('img4');
   var x5 = document.getElementById('img5');
   var x6 = document.getElementById('img6');
+  var x7 = document.getElementById('img7');
   currentimg++;
-  if(currentimg>total){currentimg=1;x1.style.top="0%";x2.style.top="0%";x3.style.top="0%";x4.style.top="0%";x5.style.top="0%";x6.style.top="0%"}
-  if(currentimg==1){x1.style.top="0px";x2.style.top="0px";x3.style.top="0px";x4.style.top="0px";x5.style.top="0px";x6.style.top="0px";projetoinfo(1);}
-  if(currentimg==2){x1.style.top="-101.5%";x2.style.top="-101.5%";x3.style.top="-101.5%";x4.style.top="-101.5%";x5.style.top="-101.5%";x6.style.top="-101.5%";projetoinfo(2);}
-  if(currentimg==3){x1.style.top="-200%";x2.style.top="-200%";x3.style.top="-202.5%";x4.style.top="-200";x5.style.top="-200%";x6.style.top="-200%";projetoinfo(3);}
-  if(currentimg==4){x1.style.top="-303.8%";x2.style.top="-303.8%";x3.style.top="-303.8%";x4.style.top="-303.8%";x5.style.top="-303.8%";x6.style.top="-303.8%";projetoinfo(4);}
-  if(currentimg==5){x1.style.top="-405%";x2.style.top="-405%";x3.style.top="-405%";x4.style.top="-405%";x5.style.top="-405%";x6.style.top="-405%";projetoinfo(5);}
-  if(currentimg==6){x1.style.top="-506%";x2.style.top="-506%";x3.style.top="-506%";x4.style.top="-506%";x5.style.top="-506.2%";x6.style.top="-506%";projetoinfo(6);}
+  if(currentimg>total){currentimg=1;x1.style.top="0%";x2.style.top="0%";x3.style.top="0%";x4.style.top="0%";x5.style.top="0%";x6.style.top="0%";x7.style.top="0%"}
+  if(currentimg==1){x1.style.top="0px";x2.style.top="0px";x3.style.top="0px";x4.style.top="0px";x5.style.top="0px";x6.style.top="0px";x7.style.top="0px";projetoinfo(1);}
+  if(currentimg==2){x1.style.top="-101.5%";x2.style.top="-101.5%";x3.style.top="-101.5%";x4.style.top="-101.5%";x5.style.top="-101.5%";x6.style.top="-101.5%";x7.style.top="-101.5%";projetoinfo(2);}
+  if(currentimg==3){x1.style.top="-200%";x2.style.top="-200%";x3.style.top="-202.5%";x4.style.top="-200";x5.style.top="-200%";x6.style.top="-200%";x7.style.top="-200%";projetoinfo(3);}
+  if(currentimg==4){x1.style.top="-303.8%";x2.style.top="-303.8%";x3.style.top="-303.8%";x4.style.top="-303.8%";x5.style.top="-303.8%";x6.style.top="-303.8%";x7.style.top="-303.8%";projetoinfo(4);}
+  if(currentimg==5){x1.style.top="-405%";x2.style.top="-405%";x3.style.top="-405%";x4.style.top="-405%";x5.style.top="-405%";x6.style.top="-405%";x7.style.top="-405%";projetoinfo(5);}
+  if(currentimg==6){x1.style.top="-506%";x2.style.top="-506%";x3.style.top="-506%";x4.style.top="-506%";x5.style.top="-506.2%";x6.style.top="-506%";x7.style.top="-506%";projetoinfo(6);}
+  if(currentimg==7){x1.style.top="-607%";x2.style.top="-607%";x3.style.top="-607%";x4.style.top="-607%";x5.style.top="-607%";x6.style.top="-607%";x7.style.top="-607%";projetoinfo(7);}
   puta = setTimeout("autochange()",9000)
   if(currentimg==6){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
+  if(currentimg==7){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
   else { var xx = document.getElementById('showb3'); xx.style.opacity=0; }
 }
 var puta
@@ -107,6 +113,7 @@ function projetoinfo(b){
   if(b==4){document.getElementById('pp').innerHTML="Este exercicio era de criar um Móvel esta imagem mosta em 3D"}
   if(b==5){document.getElementById('pp').innerHTML="Esta imagem mosta a minha primeira tentativa de criar a porta e uma das paredes da sala de Aulas 257 do IEFP"}
   if(b==6){document.getElementById('pp').innerHTML="Este Projeto era o de criar a Sala de Aulas 257 do IEFP Setúbal"}
+  if(b==7){document.getElementById('pp').innerHTML="Este projeto era para criar um skate"}
 }
 function showsala() { window.open("imgpopup.html", "Sala", "width=1000,height=600");}
 function isclick() {
@@ -129,6 +136,25 @@ function closepp() {
 function effect() {
   if(spp==1) {
     var i = document.getElementById('picin');
+    i.style.width="90%";
+    i.style.height="800px";
+  }
+}
+var spp2 = 0;
+function showpp2() {
+  var i = document.getElementById('picin2');
+  if(spp2==0) { i.style.opacity=1; spp2=1; effect2(); return}
+}
+function closepp2() {
+  var i = document.getElementById('picin2');
+  i.style.opacity="0";
+  i.style.width="50px";
+  i.style.height="50px";
+  spp2=0;
+}
+function effect2() {
+  if(spp2==1) {
+    var i = document.getElementById('picin2');
     i.style.width="90%";
     i.style.height="800px";
   }
