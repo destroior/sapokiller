@@ -142,7 +142,7 @@ function curiclose() {
 function effect4() {
   if(cpp==1) {
     var i = document.getElementById('curi1');
-    i.style.width="99%";
+    i.style.width="98%";
     i.style.height="2490px";
   }
 }
