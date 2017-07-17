@@ -142,8 +142,8 @@ function curiclose() {
 function effect4() {
   if(cpp==1) {
     var i = document.getElementById('curi1');
-    i.style.width="90%";
-    i.style.height="2390px";
+    i.style.width="99%";
+    i.style.height="2490px";
   }
 }
 var spp = 0;
