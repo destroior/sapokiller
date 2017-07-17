@@ -316,6 +316,7 @@ hr {
   background-color: white;
   border: 10px solid black;
   border-radius: 25px;
+  z-index: 9999;
   -webkit-transition: width 2s, height 2s;
     -moz-transition: width 1s, height 1s;
     -ms-transition: width 1s, height 1s;
@@ -356,6 +357,12 @@ hr {
   }
   .projeto { height: 40px; }
   .clock { top: 50px; right: 30px; }
+  .amsg {
+    height:60px;
+  }
+  .amsgsl {
+    height: 40px;
+  }
 }
 @media screen and (max-width: 680px) {
   .menu a:not(:first-child) {display: none;}
@@ -383,6 +390,12 @@ hr {
   .b2 p{margin: 10px;font-size: 12px;}
   .b3 { width: 50px; }
   .b3 p{margin: -10px;font-size: 12px;font-weight: bold;}
+  .amsg {
+    height:60px;
+  }
+  .amsgsl {
+    height: 40px;
+  }
 }
 @media screen and (max-width: 300px) {
   .b1 { width: 100px; }
@@ -391,6 +404,12 @@ hr {
   .b2 p{margin: 10px;font-size: 12px;}
   .b3 { width: 100px; }
   .b3 p{margin: -10px;font-size: 12px;font-weight: bold;}
+  .amsg {
+    height:60px;
+  }
+  .amsgsl {
+    height: 40px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -425,6 +444,12 @@ hr {
   .b2 p{margin: 10px;font-size: 12px;}
   .b3 { width: 50px; }
   .b3 p{margin: -10px;font-size: 12px;font-weight: bold;}
+  .amsg {
+    height:60px;
+  }
+  .amsgsl {
+    height: 40px;
+  }
 }
 @media screen and (max-width: 550px) {
   .history2 {
@@ -437,4 +462,10 @@ hr {
   .b2 p{margin: 10px;font-size: 12px;}
   .b3 { width: 50px; }
   .b3 p{margin: -10px;font-size: 12px;font-weight: bold;}
+  .amsg {
+    height:60px;
+  }
+  .amsgsl {
+    height: 40px;
+  }
 }
