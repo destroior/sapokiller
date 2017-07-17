@@ -384,6 +384,14 @@ hr {
   .b3 { width: 50px; }
   .b3 p{margin: -10px;font-size: 12px;font-weight: bold;}
 }
+@media screen and (max-height: 400px) {
+  .b1 { width: 50px; }
+  .b1 p{margin: 10px;font-size: 12px;}
+  .b2 { width: 50px; }
+  .b2 p{margin: 10px;font-size: 12px;}
+  .b3 { width: 50px; }
+  .b3 p{margin: -10px;font-size: 12px;font-weight: bold;}
+}
 
 @media screen and (max-width: 600px) {
   .menu.responsive {position: relative; }
