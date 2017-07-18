@@ -260,10 +260,10 @@ function detectmob() {
  || navigator.userAgent.match(/Windows Phone/i)
  ){
     return true;
-  }
- else {
-    return false;
     var g = document.getElementById('ttest');
     g.style.opacity="1";
+  }
+ else {
+    return false;  
   }
 }
