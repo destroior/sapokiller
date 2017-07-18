@@ -263,5 +263,7 @@ function detectmob() {
   }
  else {
     return false;
+    var g = document.getElementById('ttest');
+    g.style.opacity="1";
   }
 }
