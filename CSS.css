@@ -323,9 +323,6 @@ hr {
     -ms-transition: width 1s, height 1s;
     transition: width 1s, height 1s;
 }
-.Test {
-  visibility: hidden;
-}
 #curis:hover{
   border-width: thin;
   border: solid red;
@@ -356,11 +353,11 @@ hr {
 }
 .edu {
   position:relative;
-  float:right;
+  float:left;
   width:48%;
   height:550px;
   margin-Top:100px;
-  margin-Right:1%;
+  margin-left:2%;
   background:#ffffff;
   font-Family:Oswald, sans-serif;
   font-Size:15px;
@@ -368,11 +365,11 @@ hr {
 }
 .ling {
   position:relative;
-  float:right;
+  float:left;
   width:48%;
   height:290px;
   margin-Top:10px;
-  margin-Right:1%;
+  margin-left:2%;
   background:#ffffff;
   font-Family:Oswald, sans-serif;
   font-Size:15px;
@@ -397,38 +394,34 @@ hr {
 }
 .eu {
   position:relative;
-  top:-100px;
-  margin-Top:0px;
-  margin-Left:25%;
+  top:-80px;
+  left: 25%;
+  margin-Top:50px;
+  margin-right:-25%;
   margin-Bottom:-110px;
   opacity:0.8;
   z-Index:4000;
   transition:transform 0.8s;
   height: 300px;
-  width: 300px;
+  width: 50%;
 }
 .diplo {
   position: relative;
-  left: 40%;
-  float: left;
-  height: 120px;
-  width: 110px;
+  left: 45%;
+  margin-right: -45%;
+  height: 10%;
+  width: 10%;
 }
 .diplop {
   height:auto;
   width:auto;
   text-Align:center;
   visibility:hidden;
-  margin-Top:30%;
+  margin-Top:5%;
 }
 .diplo:hover {
   border-width: thin;
   border: solid red;
-}
-.eu:hover{
-  opacity:1.5;
-  z-Index:5000;
-  transform: scale(2,2) translateX(60px) translateY(-20px);
 }
 h2 {
   color:red;

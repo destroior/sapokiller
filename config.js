@@ -248,8 +248,8 @@ function isdip() {
 }
 function startdetect() {
   var u = detectmob()
-  alert(u);
 }
+var mobile = 0;
 function detectmob() {
  if( navigator.userAgent.match(/Android/i)
  || navigator.userAgent.match(/webOS/i)
@@ -260,10 +260,58 @@ function detectmob() {
  || navigator.userAgent.match(/Windows Phone/i)
  ){
     return true;
-    var g = document.getElementById('ttest');
-    g.style.visibility="visible";
+    mobile=1;
   }
  else {
     return false;
+    mobile=0;
   }
 }
+var sdados = 0;
+function showdados() {
+  if(mobile==1){
+   var f = document.getElementById('bdados');
+   var f2 = document.getElementById('bedu');
+   var f3 = document.getElementById('bling');
+   if(sdados==0){
+     sdados=1;
+     f.style.width="98%";
+     f2.style.display="none";
+     f3.style.display="none";
+     return
+  } else {
+    sdados=0;
+    f.style.width="48%";
+    f2.style.display="initial";
+    f3.style.display="initial";
+    return
+  }
+}
+}
+var sedu = 0;
+function showedu() {
+  if(mobile==1){
+  var f = document.getElementById('bdados');
+  var f2 = document.getElementById('bedu');
+  var f3 = document.getElementById('bling');
+  if(sedu==0){
+    sedu=1;
+    f.style.display="none";
+    f2.style.width="98%";
+    f3.style.width="98%";
+    f2.style.marginLeft="1%";
+    f3.style.marginLeft="1%";
+    f2.style.marginRight="0%";
+    f3.style.marginRight="0%";
+    return
+ } else {
+   sedu=0;
+   f.style.display="initial";
+   f2.style.width="48%";
+   f3.style.width="48%";
+   f2.style.marginLeft="2%";
+   f3.style.marginLeft="2%";
+   return
+ }
+ }
+ }
