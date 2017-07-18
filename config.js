@@ -261,9 +261,9 @@ function detectmob() {
  ){
     return true;
     var g = document.getElementById('ttest');
-    g.style.opacity="1";
+    g.style.visibility="visible";
   }
  else {
-    return false;  
+    return false;
   }
 }

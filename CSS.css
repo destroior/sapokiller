@@ -324,7 +324,7 @@ hr {
     transition: width 1s, height 1s;
 }
 .Test {
-  opacity: 0;
+  visibility: hidden;
 }
 #curis:hover{
   border-width: thin;
