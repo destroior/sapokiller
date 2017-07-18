@@ -323,7 +323,7 @@ hr {
     -ms-transition: width 1s, height 1s;
     transition: width 1s, height 1s;
 }
-.test {
+.Test {
   opacity: 0;
 }
 #curis:hover{
