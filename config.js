@@ -288,6 +288,7 @@ function showdados() {
    var f2 = document.getElementById('bedu');
    var f3 = document.getElementById('bling');
    var f4 = document.getElementById('euc');
+   var f5 = document.getElementById('p1');
    if(sdados==0){
      sdados=1;
      f.style.width="98%";
@@ -296,6 +297,7 @@ function showdados() {
      f2.style.display="none";
      f3.style.display="none";
      f4.style.opacity="1";
+     f5.style.fontSize="5px";
      return
   } else {
     sdados=0;
@@ -305,6 +307,7 @@ function showdados() {
     f4.style.opacity="0";
     f2.style.display="initial";
     f3.style.display="none";
+    f5.style.fontSize="8px";
     return
   }
 }
