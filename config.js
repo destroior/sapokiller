@@ -259,14 +259,11 @@ function detectmob() {
  || navigator.userAgent.match(/BlackBerry/i)
  || navigator.userAgent.match(/Windows Phone/i)
  ){
-    return true;
     mobile=1;
-    alert("1");
+    return true;  
   }
  else {
     return false;
-    mobile=0;
-    alert("2");
   }
 }
 var sdados = 0;
