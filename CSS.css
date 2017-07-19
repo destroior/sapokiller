@@ -662,6 +662,7 @@ h2 {
     float: none;
     display: block;
     text-align: left;
+    width: 100%;
   }
   .history2 {
     height: 2700px;
