@@ -269,6 +269,7 @@ function detectmob() {
 }
 var sdados = 0;
 function showdados() {
+  alert(mobile);
   if(mobile==1){
    var f = document.getElementById('bdados');
    var f2 = document.getElementById('bedu');
