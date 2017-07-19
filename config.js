@@ -336,7 +336,7 @@ function showedu() {
    f3.style.width="48%";
    f.style.height="50px";
    f2.style.height="50px";
-   f3.style.display="initial";
+   f3.style.display="none";
    f2.style.marginLeft="2%";
    f3.style.marginLeft="2%";
    f4.style.opacity="0";
