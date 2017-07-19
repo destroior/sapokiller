@@ -260,10 +260,19 @@ function detectmob() {
  || navigator.userAgent.match(/Windows Phone/i)
  ){
     mobile=1;
+    var f = document.getElementById('bdados');
+    var f2 = document.getElementById('bedu');
+    var f3 = document.getElementById('bling');
+    f.style.height="50px";
+    f2.style.height="50px";
+    f3.style.display="none";
     return true;
   }
  else {
     mobile=0;
+    f.style.height="850px";
+    f2.style.height="550px";
+    f3.style.display="inherit";
     return false;
   }
 }
