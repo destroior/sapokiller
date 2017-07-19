@@ -263,9 +263,13 @@ function detectmob() {
     var f = document.getElementById('bdados');
     var f2 = document.getElementById('bedu');
     var f3 = document.getElementById('bling');
-    f.style.height="30px";
-    f2.style.height="30px";
+    var f4 = document.getElementById('euc');
+    var f5 = document.getElementById('sobreb');
+    f.style.height="40px";
+    f2.style.height="40px";
     f3.style.display="none";
+    f4.style.visibility="hidden";
+    f5.style.height="auto";
     return true;
   }
  else {
@@ -273,16 +277,17 @@ function detectmob() {
     f.style.height="850px";
     f2.style.height="550px";
     f3.style.display="inherit";
+    f4.style.visibility="visible";
     return false;
   }
 }
 var sdados = 0;
 function showdados() {
-  alert(mobile);
   if(mobile==1){
    var f = document.getElementById('bdados');
    var f2 = document.getElementById('bedu');
    var f3 = document.getElementById('bling');
+   var f4 = document.getElementById('euc');
    if(sdados==0){
      sdados=1;
      f.style.width="98%";
@@ -290,14 +295,16 @@ function showdados() {
      f2.style.height="550px";
      f2.style.display="none";
      f3.style.display="none";
+     f4.style.visibility="visible";
      return
   } else {
     sdados=0;
     f.style.width="48%";
-    f.style.height="30px";
-    f2.style.height="30px";
+    f.style.height="40px";
+    f2.style.height="40px";
+    f4.style.visibility="hidden";
     f2.style.display="initial";
-    f3.style.display="initial";
+    f3.style.display="none";
     return
   }
 }
@@ -308,6 +315,7 @@ function showedu() {
   var f = document.getElementById('bdados');
   var f2 = document.getElementById('bedu');
   var f3 = document.getElementById('bling');
+  var f4 = document.getElementById('euc');
   if(sedu==0){
     sedu=1;
     f.style.display="none";
@@ -319,6 +327,7 @@ function showedu() {
     f3.style.marginLeft="1%";
     f2.style.marginRight="0%";
     f3.style.marginRight="0%";
+    f4.style.visibility="hidden";
     return
  } else {
    sedu=0;
@@ -328,6 +337,7 @@ function showedu() {
    f3.style.display="initial";
    f2.style.marginLeft="2%";
    f3.style.marginLeft="2%";
+   f4.style.visibility="hidden";
    return
  }
  }
