@@ -265,11 +265,11 @@ function detectmob() {
     var f3 = document.getElementById('bling');
     var f4 = document.getElementById('euc');
     var f5 = document.getElementById('sobreb');
-    f.style.height="40px";
-    f2.style.height="40px";
+    f.style.height="50px";
+    f2.style.height="50px";
     f3.style.display="none";
-    f4.style.visibility="hidden";
-    f5.style.height="auto";
+    f4.style.opacity="0";
+    f5.style.height="420px";
     return true;
   }
  else {
@@ -277,7 +277,7 @@ function detectmob() {
     f.style.height="850px";
     f2.style.height="550px";
     f3.style.display="inherit";
-    f4.style.visibility="visible";
+    f4.style.opacity="1";
     return false;
   }
 }
@@ -300,8 +300,8 @@ function showdados() {
   } else {
     sdados=0;
     f.style.width="48%";
-    f.style.height="40px";
-    f2.style.height="40px";
+    f.style.height="50px";
+    f2.style.height="50px";
     f4.style.opacity="0";
     f2.style.display="initial";
     f3.style.display="none";
@@ -334,6 +334,8 @@ function showedu() {
    f.style.display="initial";
    f2.style.width="48%";
    f3.style.width="48%";
+   f.style.height="50px";
+   f2.style.height="50px";
    f3.style.display="initial";
    f2.style.marginLeft="2%";
    f3.style.marginLeft="2%";
