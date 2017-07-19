@@ -263,7 +263,7 @@ function detectmob() {
     return true;
   }
  else {
-    mobile=2;
+    mobile=0;
     return false;
   }
 }
