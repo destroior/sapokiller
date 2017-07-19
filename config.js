@@ -319,14 +319,14 @@ function showedu() {
     sedu=1;
     f.style.display="none";
     f2.style.width="98%";
-    f3.style.width="98%";
     f3.style.display="initial";
+    f3.style.width="98%";
+    f3.style.marginLeft="1%";
+    f3.style.marginRight="0%";
     f.style.height="850px";
     f2.style.height="550px";
     f2.style.marginLeft="1%";
-    f3.style.marginLeft="1%";
     f2.style.marginRight="0%";
-    f3.style.marginRight="0%";
     f4.style.opacity="0";
     return
  } else {
