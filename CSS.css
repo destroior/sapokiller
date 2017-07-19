@@ -132,7 +132,7 @@ body {
   color: black;
 }
 .sobre {
-  height: 700px;
+  height: auto;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
