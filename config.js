@@ -263,8 +263,8 @@ function detectmob() {
     var f = document.getElementById('bdados');
     var f2 = document.getElementById('bedu');
     var f3 = document.getElementById('bling');
-    f.style.height="50px";
-    f2.style.height="50px";
+    f.style.height="30px";
+    f2.style.height="30px";
     f3.style.display="none";
     return true;
   }
@@ -286,12 +286,16 @@ function showdados() {
    if(sdados==0){
      sdados=1;
      f.style.width="98%";
+     f.style.height="850px";
+     f2.style.height="550px";
      f2.style.display="none";
      f3.style.display="none";
      return
   } else {
     sdados=0;
     f.style.width="48%";
+    f.style.height="30px";
+    f2.style.height="30px";
     f2.style.display="initial";
     f3.style.display="initial";
     return
@@ -309,6 +313,8 @@ function showedu() {
     f.style.display="none";
     f2.style.width="98%";
     f3.style.width="98%";
+    f.style.height="850px";
+    f2.style.height="550px";
     f2.style.marginLeft="1%";
     f3.style.marginLeft="1%";
     f2.style.marginRight="0%";
@@ -319,6 +325,7 @@ function showedu() {
    f.style.display="initial";
    f2.style.width="48%";
    f3.style.width="48%";
+   f3.style.display="initial";
    f2.style.marginLeft="2%";
    f3.style.marginLeft="2%";
    return
