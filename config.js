@@ -320,7 +320,6 @@ function showedu() {
     f.style.display="none";
     f2.style.width="98%";
     f3.style.width="98%";
-    f3.style.width="290px";
     f3.style.display="initial";
     f.style.height="850px";
     f2.style.height="550px";
