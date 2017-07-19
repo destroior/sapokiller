@@ -261,10 +261,12 @@ function detectmob() {
  ){
     return true;
     mobile=1;
+    alert("1");
   }
  else {
     return false;
     mobile=0;
+    alert("2");
   }
 }
 var sdados = 0;
