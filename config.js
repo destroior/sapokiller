@@ -260,9 +260,10 @@ function detectmob() {
  || navigator.userAgent.match(/Windows Phone/i)
  ){
     mobile=1;
-    return true;  
+    return true;
   }
  else {
+    mobile=2;
     return false;
   }
 }
