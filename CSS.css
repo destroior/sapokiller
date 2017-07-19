@@ -403,7 +403,7 @@ hr {
   z-Index:4000;
   transition:transform 0.8s;
   height: 20%;
-  width: 50%;
+  width: 60%;
 }
 .showm {
   width: 100%;
@@ -534,9 +534,6 @@ h2 {
   .amsgsl {
     height: 40px;
   }
-  .eu {
-    width: 120px;
-  }
   .dados {
     height: 1200px;
   }
@@ -586,9 +583,6 @@ h2 {
   .amsgsl {
     height: 40px;
   }
-  .eu {
-    width: 120px;
-  }
   .dados {
     height: 1200px;
   }
@@ -618,9 +612,6 @@ h2 {
   }
   .amsgsl {
     height: 40px;
-  }
-  .eu {
-    width: 120px;
   }
   .dados {
     height: 1200px;
@@ -678,9 +669,7 @@ h2 {
   .amsgsl {
     height: 40px;
   }
-  .eu {
-    width: 100px;
-  }
+
   .dados {
     height: 1200px;
   }
@@ -714,9 +703,6 @@ h2 {
   }
   .amsgsl {
     height: 40px;
-  }
-  .eu {
-    width: 120px;
   }
   .dados {
     height: 1200px;
