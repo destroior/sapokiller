@@ -260,14 +260,12 @@ function detectmob() {
  || navigator.userAgent.match(/Windows Phone/i)
  ){
     mobile=1;
-    var f4 = document.getElementById('sobreb');
     var f = document.getElementById('bdados');
     var f2 = document.getElementById('bedu');
     var f3 = document.getElementById('bling');
     f.style.height="50px";
     f2.style.height="50px";
     f3.style.display="none";
-    f4.style.height="400px";
     return true;
   }
  else {
