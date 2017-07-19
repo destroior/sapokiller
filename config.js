@@ -143,7 +143,7 @@ function effect4() {
   if(cpp==1) {
     var i = document.getElementById('curi1');
     i.style.width="100%";
-    i.style.height="2490px";
+    i.style.height="auto";
   }
 }
 var spp = 0;

@@ -40,34 +40,24 @@ Neste momento já acabei de tirar a carta de condução.
     <div class="toclose" onclick="curiclose()">X</div>
     <div class="curvdiv">
       <img class="curilogo" src="Curriculo.png">
-      <div class="dados">
-      <h2>Dados Pessoais</h2>
+      <div id="bdados" class="dados">
+      <h2 onclick="showdados()">Dados Pessoais</h2>
       <img src="eu.png" class="eu">
-      <br>
-      <blockquote>
-        <img src="Nome.png" align=left width=40px height=30px><center>Márcio André dos Reis Carvalho</center>
-        <br>
-        <img src="age.png" align=left width=40px height=30px><center>31</center>
-        <br>
-        <img src="favicon.png" align=left width=40px height=30px><center>12 de Outubro de 1985</center>
-        <br>
-        <img src="Morada.png" align=left width=40px height=30px><center>Rua Luta do Povo nº 4</center>
-        <br>
-        <img src="Postal.png" align=left width=40px height=30px><center>2910-113</center>
-        <br>
-        <img src="telefone.png" align=left width=40px height=30px><center>939025850</center>
-        <br>
-        <img src="email.png" align=left width=40px height=30px><center>destroior@hotmail.com</center>
-        <br>
-        <img src="logo-skill.png" align=left width=40px height=30px><center>Português(Materno), Inglês</center>
-        <br>
-        <img src="smoker.png" align=left width=40px height=30px><center>Não</center>
-        <br>
-        <img src="alcohol.png" align=left width=40px height=30px><center>Não</center>
-      </blockquote>
+      <div class="showm">
+        <img src="Nome.png" class="showmpic"><p>Márcio André dos Reis Carvalho</p>
+        <img src="age.png" class="showmpic"><p>31</p>
+        <img src="favicon.png" class="showmpic"><p>12 de Outubro de 1985</p>
+        <img src="Morada.png" class="showmpic"><p>Rua Luta do Povo nº 4</p>
+        <img src="Postal.png" class="showmpic"><p>2910-113</p>
+        <img src="telefone.png" class="showmpic"><p>939025850</p>
+        <img src="email.png" class="showmpic"><p>destroior@hotmail.com</p>
+        <img src="logo-skill.png" class="showmpic"><p>Português(Materno), Inglês</p>
+        <img src="smoker.png" class="showmpic"><p>No</p>
+        <img src="alcohol.png" class="showmpic"><p>No</p>
       </div>
-      <div class="edu">
-      <h2>Educação</h2>
+      </div>
+      <div id="bedu" class="edu">
+      <h2 onclick="showedu()">Educação</h2>
       <br>
       <img src="diplomas.png" class="diplo" onclick=isdip()>
       <p class="diplop" id="bb">
@@ -87,7 +77,7 @@ Neste momento já acabei de tirar a carta de condução.
         <font color=red>-</font> <font color=black>ICQ Level 2 Award in Barista Skills(QCF) <font color=blue>/</font> Pret a Manger Academy - Londres <font color=blue>/<font color=black> Ano: <font color=red>2014</font>
       </p>
       </div>
-      <div class="ling">
+      <div id="bling" class="ling">
         <h2>Conhecimentos Línguisticos</h2>
         <br>
         <p align="center"><font color=black>Língua Portuguesa Falada:</font> <progress value=100 max=100></progress><font color=darkblue>(</font><font color=red>Materna</font><font color=darkblue>)</font></p>
@@ -121,7 +111,7 @@ Neste momento já acabei de tirar a carta de condução.
          <br>
          <font color=#2f98eb size=4><b>Conhecimentos Informáticos:</b></font> Photoshop, HTML5, CSS, Javascript, Adobe Flash, Excel, Word, PowerPoint
          <br>
-         <br>  
+         <br>
         </p>
       </div>
     </div>
