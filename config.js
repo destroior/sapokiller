@@ -264,12 +264,10 @@ function detectmob() {
     var f2 = document.getElementById('bedu');
     var f3 = document.getElementById('bling');
     var f4 = document.getElementById('euc');
-    var f5 = document.getElementById('sobreb');
     f.style.height="50px";
     f2.style.height="50px";
     f3.style.display="none";
     f4.style.opacity="0";
-    f5.style.height="420px";
     return true;
   }
  else {
@@ -297,7 +295,6 @@ function showdados() {
      f2.style.display="none";
      f3.style.display="none";
      f4.style.opacity="1";
-     f5.style.fontSize="5px";
      return
   } else {
     sdados=0;
@@ -307,7 +304,6 @@ function showdados() {
     f4.style.opacity="0";
     f2.style.display="initial";
     f3.style.display="none";
-    f5.style.fontSize="8px";
     return
   }
 }
