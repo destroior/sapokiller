@@ -295,14 +295,14 @@ function showdados() {
      f2.style.height="550px";
      f2.style.display="none";
      f3.style.display="none";
-     f4.style.visibility="visible";
+     f4.style.opacity="1";
      return
   } else {
     sdados=0;
     f.style.width="48%";
     f.style.height="40px";
     f2.style.height="40px";
-    f4.style.visibility="hidden";
+    f4.style.opacity="0";
     f2.style.display="initial";
     f3.style.display="none";
     return
@@ -327,7 +327,7 @@ function showedu() {
     f3.style.marginLeft="1%";
     f2.style.marginRight="0%";
     f3.style.marginRight="0%";
-    f4.style.visibility="hidden";
+    f4.style.opacity="0";
     return
  } else {
    sedu=0;
@@ -337,7 +337,7 @@ function showedu() {
    f3.style.display="initial";
    f2.style.marginLeft="2%";
    f3.style.marginLeft="2%";
-   f4.style.visibility="hidden";
+   f4.style.opacity="0";
    return
  }
  }
