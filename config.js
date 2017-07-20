@@ -162,7 +162,7 @@ function effect() {
   if(spp==1) {
     var i = document.getElementById('picin');
     i.style.width="90%";
-    i.style.height="800px";
+    i.style.height="auto";
   }
 }
 var spp2 = 0;
@@ -181,7 +181,7 @@ function effect2() {
   if(spp2==1) {
     var i = document.getElementById('picin2');
     i.style.width="90%";
-    i.style.height="800px";
+    i.style.height="auto";
   }
 }
 var spp3 = 0;
