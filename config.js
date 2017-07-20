@@ -201,7 +201,7 @@ function effect3() {
   if(spp3==1) {
     var i = document.getElementById('picin3');
     i.style.width="90%";
-    i.style.height="800px";
+    i.style.height="auto";
   }
 }
 function toshow3() {
