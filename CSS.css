@@ -16,34 +16,47 @@ body {
   background-image: url('LogoSiteArchicad.jpg');
   background-size: 100% 100%;
 }
-.dimg1 { float: left; width: 49%; height: 40%; margin-right: 1%; margin-bottom: 50px; }
+.dimg1 { float: left; width: 49%; height: 40%; margin-right: 1%; margin-bottom: 2px; }
+.imgshow {
+  position: relative;
+  top: -100px;
+  margin-top: 50px;
+}
 .showp1 {
   position: relative;
-  top: -100%;
-  left: 5%;
-  color: red;
+  top: -50px;
+  left: 0%;
+  color: white;
   z-index: 5;
+  float: left;
+  background-color: gray;
 }
 .showp2 {
   position: relative;
-  top: -100%;
-  left: 5%;
-  color: red;
+  top: -50px;
+  left: 0%;
+  color: white;
   z-index: 5;
+  float: left;
+  background-color: gray;
 }
 .showp3 {
   position: relative;
-  top: -95%;
-  left: 5%;
-  color: red;
+  top: -50px;
+  left: 0%;
+  color: white;
+  float: left;
   z-index: 5;
+  background-color: gray;
 }
 .showp4 {
   position: relative;
-  top: -95%;
-  left: 5%;
-  color: red;
+  top: -50px;
+  left: 0%;
+  color: white;
+  float: left;
   z-index: 5;
+  background-color: gray;
 }
 .dimg2 { float: left; width: 49%; height: 40%; margin-left: 1%; margin-bottom: 0px; }
 .dimg1 img:hover {
@@ -54,27 +67,39 @@ body {
 }
 .salap1 {
   position: relative;
-  top: -12%;
-  left: 25%;
+  top: -50px;
+  left: 8%;
   color: black;
+  background-color: gray;
+  width: 50%;
+  z-index: 5;
 }
 .salap2 {
   position: relative;
-  top: -12%;
-  left: 25%;
+  top: -50px;
+  left: 8%;
   color: black;
+  background-color: gray;
+  width: 70%;
+  z-index: 5;
 }
 .salap3 {
   position: relative;
-  top: -19%;
-  left: 25%;
+  top: -50px;
+  left: 8%;
   color: black;
+  background-color: gray;
+  width: 50%;
+  z-index: 5;
 }
 .salap4 {
   position: relative;
-  top: -19%;
-  left: 25%;
+  top: -50px;
+  left: 8%;
   color: black;
+  background-color: gray;
+  width: 50%;
+  z-index: 5;
 }
 .menu {
   margin-top: 3px;
