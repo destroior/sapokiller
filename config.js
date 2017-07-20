@@ -75,8 +75,8 @@ function nextimage() {
   if(currentimg==8){x1.style.top="-708%";x2.style.top="-708%";x3.style.top="-708%";x4.style.top="-708%";x5.style.top="-708%";x6.style.top="-708%";x7.style.top="-708%";x8.style.top="-708%";projetoinfo(8);}
   puta = setTimeout("autochange()",9000)
   if(currentimg==6){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
-  if(currentimg==7){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
-  if(currentimg==8){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
+  else if(currentimg==7){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
+  else if(currentimg==8){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
   else { var xx = document.getElementById('showb3'); xx.style.opacity=0; }
 }
 function innextimage() {
@@ -101,8 +101,8 @@ function innextimage() {
   if(currentimg==8){x1.style.top="-708%";x2.style.top="-708%";x3.style.top="-708%";x4.style.top="-708%";x5.style.top="-708%";x6.style.top="-708%";x7.style.top="-708%";x8.style.top="-708%";projetoinfo(8);}
   puta = setTimeout("autochange()",9000)
   if(currentimg==6){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
-  if(currentimg==7){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
-  if(currentimg==8){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
+  else if(currentimg==7){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
+  else if(currentimg==8){ var xx = document.getElementById('showb3'); xx.style.opacity=1; }
   else { var xx = document.getElementById('showb3'); xx.style.opacity=0; }
 }
 var puta
