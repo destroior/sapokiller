@@ -167,10 +167,10 @@ body {
   color: black;
 }
 .sobre {
-  height: auto;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  height: 900px;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-top: 50px;
   background-color: white;
   box-shadow: 5px 5px 5px gray;
