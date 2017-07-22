@@ -130,10 +130,11 @@ function isclick() {
 var cpp = 0;
 function opencuri() {
   var i = document.getElementById('curi1');
-  if(cpp==0) { i.style.opacity=1; cpp=1; effect4(); isdip(); return}
+  if(cpp==0) { i.style.left="0px"; i.style.opacity=1; cpp=1; effect4(); isdip(); return}
 }
 function curiclose() {
   var i = document.getElementById('curi1');
+  i.style.left="-1000px";
   i.style.opacity="0";
   i.style.width="50px";
   i.style.height="50px";
@@ -149,10 +150,11 @@ function effect4() {
 var spp = 0;
 function showpp() {
   var i = document.getElementById('picin');
-  if(spp==0) { i.style.opacity=1; spp=1; effect(); return}
+  if(spp==0) { i.style.left="5%"; i.style.opacity=1; spp=1; effect(); return}
 }
 function closepp() {
   var i = document.getElementById('picin');
+  i.style.left="-1000px";
   i.style.opacity="0";
   i.style.width="50px";
   i.style.height="50px";
@@ -161,17 +163,34 @@ function closepp() {
 function effect() {
   if(spp==1) {
     var i = document.getElementById('picin');
+    var i2 = document.getElementsByClassName('showp1');
+    var i3 = document.getElementsByClassName('showp2');
+    var i4 = document.getElementsByClassName('showp3');
+    var i5 = document.getElementsByClassName('showp4');
+    var i6 = document.getElementsByClassName('salap1');
+    var i7 = document.getElementsByClassName('salap2');
+    var i8 = document.getElementsByClassName('salap3');
+    var i9 = document.getElementsByClassName('salap4');
     i.style.width="90%";
     i.style.height="auto";
+    i2.style.fontSize="2px";
+    i3.style.fontSize="2px";
+    i4.style.fontSize="2px";
+    i5.style.fontSize="2px";
+    i6.style.fontSize="2px";
+    i7.style.fontSize="2px";
+    i8.style.fontSize="2px";
+    i9.style.fontSize="2px";
   }
 }
 var spp2 = 0;
 function showpp2() {
   var i = document.getElementById('picin2');
-  if(spp2==0) { i.style.opacity=1; spp2=1; effect2(); return}
+  if(spp2==0) { i.style.left="5%"; i.style.opacity=1; spp2=1; effect2(); return}
 }
 function closepp2() {
   var i = document.getElementById('picin2');
+  i.style.left="-1000px";
   i.style.opacity="0";
   i.style.width="50px";
   i.style.height="50px";
@@ -182,16 +201,35 @@ function effect2() {
     var i = document.getElementById('picin2');
     i.style.width="90%";
     i.style.height="auto";
+    var i2 = document.getElementsByClassName('showp1');
+    var i3 = document.getElementsByClassName('showp2');
+    var i4 = document.getElementsByClassName('showp3');
+    var i5 = document.getElementsByClassName('showp4');
+    var i6 = document.getElementsByClassName('salap1');
+    var i7 = document.getElementsByClassName('salap2');
+    var i8 = document.getElementsByClassName('salap3');
+    var i9 = document.getElementById('ii5');
+    i.style.width="90%";
+    i.style.height="auto";
+    i2.style.fontSize="2px";
+    i3.style.fontSize="2px";
+    i4.style.fontSize="2px";
+    i5.style.fontSize="2px";
+    i6.style.fontSize="2px";
+    i7.style.fontSize="2px";
+    i8.style.fontSize="2px";
+    i9.style.fontSize="2px";
   }
 }
 var spp3 = 0;
 var insp3 = 1;
 function showpp3() {
   var i = document.getElementById('picin3');
-  if(spp3==0) { i.style.opacity=1; spp3=1; insp3=1; effect3(); toshow3(); return}
+  if(spp3==0) { i.style.left="5%"; i.style.opacity=1; spp3=1; insp3=1; effect3(); toshow3(); return}
 }
 function closepp3() {
   var i = document.getElementById('picin3');
+  i.style.left="-1000px";
   i.style.opacity="0";
   i.style.width="50px";
   i.style.height="50px";
@@ -200,6 +238,24 @@ function closepp3() {
 function effect3() {
   if(spp3==1) {
     var i = document.getElementById('picin3');
+    var i2 = document.getElementsByClassName('showp1');
+    var i3 = document.getElementsByClassName('showp2');
+    var i4 = document.getElementsByClassName('showp3');
+    var i5 = document.getElementsByClassName('showp4');
+    var i6 = document.getElementsByClassName('salap1');
+    var i7 = document.getElementsByClassName('salap2');
+    var i8 = document.getElementsByClassName('salap3');
+    var i9 = document.getElementsByClassName('salap4');
+    i.style.width="90%";
+    i.style.height="auto";
+    i2.style.fontSize="2px";
+    i3.style.fontSize="2px";
+    i4.style.fontSize="2px";
+    i5.style.fontSize="2px";
+    i6.style.fontSize="2px";
+    i7.style.fontSize="2px";
+    i8.style.fontSize="2px";
+    i9.style.fontSize="2px";
     i.style.width="90%";
     i.style.height="auto";
   }

@@ -135,13 +135,14 @@ body {
 }
 .modulo {
   height: auto;
-  width: 90%;
-  margin-left: 2%;
-  margin-right: 2%;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-top: 50px;
   background-color: white;
   box-shadow: 5px 5px 5px gray;
   border-radius: 15px;
+  border-width: thin;
 }
 .history p {
   margin-left: 20px;
@@ -175,12 +176,7 @@ body {
   background-color: white;
   box-shadow: 5px 5px 5px gray;
   border-radius: 15px;
-}
-.sobre p {
-  margin-left: 20px;
-  margin-right: 20px;
   color: black;
-  height: auto;
 }
 h1 {
   text-align: center;
@@ -225,17 +221,18 @@ h1 {
 }
 .enviaremail {
   position: relative;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-top: 40px;
   opacity: 0.8;
-  width: 92%;
+  width: 98%;
   height: 400px;
   background: white;
-  border: 3px solid black;
+  border: solid black;
   font-family: Oswald, sans-serif;
   color: black;
   text-align: center;
+  border-width: thin;
 }
 .enviarp{
   height: 300px;
@@ -243,6 +240,7 @@ h1 {
   color: black;
   font-size: 20px;
   margin-top: 150px;
+  width: 100%;
 }
 .picextra{
   position: relative;
@@ -344,7 +342,7 @@ hr {
 .showcurriculo {
   position: absolute;
   top: 10%;
-  left: 0%;
+  left: -1000px;
   width: 50px;
   height: 50px;
   opacity: 0;
@@ -425,7 +423,7 @@ hr {
   box-Shadow:5px 5px 5px gray;
 }
 .expp {
-  margin-Left:30px;
+  margin-Left:1%;
   color:black;
 }
 .eu {
@@ -481,7 +479,7 @@ h2 {
 .showpic {
   position: absolute;
   top: 5%;
-  left: 5%;
+  left: -1000px;
   width: 50px;
   height: 50px;
   opacity: 0;
@@ -556,9 +554,6 @@ h2 {
   #archiuse {
     width: 340px;
     height: 700px;
-  }
-  .sobre {
-    height: 850px;
   }
   .projeto { height: 40px; }
   .clock { top: 50px; right: 30px; }
